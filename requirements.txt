@@ -1,0 +1,8 @@
+Flask==0.12.1
+Flask-Script==2.0.5
+Flask-WTF==0.14.2
+Jinja2==2.9.6
+WTForms==2.1
+flask-orator==0.2.0
+requests==2.10.0
+
