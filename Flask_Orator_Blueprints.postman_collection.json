@@ -1,0 +1,222 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Flask_Orator_Blueprints",
+		"_postman_id": "4ced4057-7bf4-98b6-bb00-804d250ce45a",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5000/messages/2",
+			"request": {
+				"url": "http://127.0.0.1:5000/messages/2",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"first_name\":\"test\",\"last_name\":\"gvartest\", \"pin\":1236653333066}"
+				},
+				"description": "get message by id "
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/users",
+			"request": {
+				"url": "http://127.0.0.1:5000/users",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"test\",\"email\":\"gvartest@gmail.com\"}"
+				},
+				"description": "create new user"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/users",
+			"request": {
+				"url": "http://127.0.0.1:5000/users/4",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"test\",\"email\":\"testmail@gmail.com\"}"
+				},
+				"description": "update user by id"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/users/1/messages",
+			"request": {
+				"url": "http://127.0.0.1:5000/users/1/messages",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"test\",\"email\":\"testmail@gmail.com\"}"
+				},
+				"description": "get message by user id"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/users/4/messages",
+			"request": {
+				"url": "http://127.0.0.1:5000/users/4/messages",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"content\":\"test message\"}"
+				},
+				"description": "create message"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/users/2/following",
+			"request": {
+				"url": "http://127.0.0.1:5000/users/2/following",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"content\":\"test message\"}"
+				},
+				"description": "get user following"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/users/2/followers",
+			"request": {
+				"url": "http://127.0.0.1:5000/users/2/followers",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"content\":\"test message\"}"
+				},
+				"description": "get user followers"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/users/4/following/1",
+			"request": {
+				"url": "http://127.0.0.1:5000/users/4/following/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": "follow user"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/users/4/following/1",
+			"request": {
+				"url": "http://127.0.0.1:5000/users/4/following/1",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": "unfollow user"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/messages/1",
+			"request": {
+				"url": "http://127.0.0.1:5000/messages/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "get message"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/messages/1",
+			"request": {
+				"url": "http://127.0.0.1:5000/messages/4",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"content\":\"test message redact\"}"
+				},
+				"description": "update message"
+			},
+			"response": []
+		}
+	]
+}
