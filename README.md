@@ -7,6 +7,7 @@
     - [Migrations and seeds](#migrations-and-seeds)
     - [Run Application](#run-application)
 - [Usage](#usage-)
+    - [Requests in Postman](#requests-in-postman)
 
 ### Description
  If You are Programmer who can't code without Active record pattern, who has experience with Laravel Eloquent or just  like beautiful ORM - this repository if for you.   
