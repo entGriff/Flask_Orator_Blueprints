@@ -5,7 +5,7 @@
  If You are Programmer who can't code without Active record pattern, who has experience with Laravel Eloquent or just  like beautiful ORM - this repository if for you.   
  
  The Idea of this repository comes from  [Twittor api], which inspired me to do implementation of Orator(AN ACTIVERECORD ORM FOR PYTHON) and Flask Blueprints architecture.
- [tittor api]
+
  ---
  
  
