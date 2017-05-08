@@ -1,7 +1,14 @@
 # Flask ORM Blueprints
 ### Flask Blueprints app with Orator ORM for Laravel's Eloquent lovers and not only for them.  
 
----
+- [Description](#description)
+- Installation
+    - [Requirements](#requirements)
+    - [Migrations and seeds](#migrations-and-seeds)
+    - [Run Application](#run-application)
+- [Usage](#usage-)
+
+### Description
  If You are Programmer who can't code without Active record pattern, who has experience with Laravel Eloquent or just  like beautiful ORM - this repository if for you.   
  
  The Idea of this repository comes from  [Twittor api], which inspired me to do implementation of Orator(AN ACTIVERECORD ORM FOR PYTHON) and Flask Blueprints architecture.
@@ -27,7 +34,7 @@ $ easy_install orator
 2. Insert data into newly created tables.
     `python db.py db:seed`
 
-### Seeded data :
+#### Seeded data :
 
 ![migrated_tables](https://cloud.githubusercontent.com/assets/2203893/25797167/2b467f82-33ed-11e7-8409-d98e9d5ddece.gif)
 
