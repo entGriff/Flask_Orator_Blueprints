@@ -61,7 +61,8 @@ $ python manage.py runserver
 | PATCH | http://127.0.0.1:5000/messages/{message_id} | Updates message by message id | UPDATE|
 | DELETE | http://127.0.0.1:5000/messages/{message_id}  | Removes message by message id | DELETE|
 
-
+#### Requests in Postman
+For making requests from postman - you only needs to import [postman_requests] into your postman
 
 License
 ----
@@ -69,3 +70,4 @@ License
 MIT
 
  [Twittor api]:  <https://github.com/sdispater/twittor-api>
+ [postman_requests]: <https://github.com/ent1c3d/Flask_Orator_Blueprints/blob/master/Flask_Orator_Blueprints.postman_collection.json>
