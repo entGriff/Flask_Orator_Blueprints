@@ -1,4 +1,4 @@
-# Flask ORM Blueprints
+# Flask Orator Blueprints
 ### Flask Blueprints app with Orator ORM for Laravel's Eloquent lovers and not only for them.  
 
 - [Description](#description)
@@ -61,5 +61,11 @@ $ python manage.py runserver
 | PATCH | http://127.0.0.1:5000/messages/{message_id} | Updates message by message id | UPDATE|
 | DELETE | http://127.0.0.1:5000/messages/{message_id}  | Removes message by message id | DELETE|
 
+
+
+License
+----
+
+MIT
 
  [Twittor api]:  <https://github.com/sdispater/twittor-api>
